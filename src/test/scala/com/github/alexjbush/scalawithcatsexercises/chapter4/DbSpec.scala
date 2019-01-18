@@ -2,7 +2,7 @@ package com.github.alexjbush.scalawithcatsexercises.chapter4
 
 import org.scalatest.{FlatSpec, Matchers}
 
-class DbSpec extends FlatSpec with Matchers{
+class DbSpec extends FlatSpec with Matchers {
 
   val testDb: Db = Db(Map(0 -> "test user"), Map("test user" -> "test password"))
 
